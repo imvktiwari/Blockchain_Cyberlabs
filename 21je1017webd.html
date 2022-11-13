@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Teammate</title>
+    <link rel="stylesheet" href="21je1017webd.css">
+</head>
+
+<body>
+    <header>
+        <h1>Find Teammate</h1>
+        <nav>
+            <ul>
+                <li id="link"><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <br>
+        <div id="form">
+            <form onsubmit="login()" id="loginForm">
+                <h2>Login here</h2>
+                <input id="email" type="email" name="email" placeholder="Enter Email here"><br>
+                <input id="password" type="password" placeholder="Enter Password here"><br>
+
+                <center><small><span id="error" style="color: rgb(10, 9,  9)"></span></small></center>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p>Don't have an account ?<br></p>
+            <form action="signupform.html">
+                <input id="signup" type="submit" value="Signup Here">
+            </form>
+        </div>
+    </section>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+    <script src="firebase21je1017.js"></script>
+    <script src="21je1017webd.js"></script>
+
+
+</body>
+
+</html>

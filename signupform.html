@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="signupform.css">
+</head>
+
+<body>
+    <div id="main">
+        <section id="form">
+            <h1> Register Here </h1>
+            <input type="text" id="fname" placeholder="Enter Your Full Name">
+            <br>
+            <input type="text" id="age" placeholder="How old are you">
+            <br>
+            <input type="text" id="clg" placeholder="Enter name of your College">
+            <br>
+            <input type="text" id="yos" placeholder="Year of Study">
+            <br>
+            <input type="text" id="plang" placeholder="Known programming Languages">
+            <br>
+            <input type="email" id="glink" placeholder="Enter your Github Username ">
+            <br>
+            <input type="email" id="llink" placeholder="Enter your LinkdeIn link ">
+            <br>
+            <input type="text" id="number" placeholder="Enter your phone number">
+            <br>
+            <input type="email" id="email" placeholder="Enter Email here">
+            <br>
+            <input type="password" id="password" placeholder="Enter Password here">
+            <br>
+            <input type="password" id="cpassword" placeholder="Confirm your Password here">
+            <br>
+            <div id="button_container">
+                <button onclick="register()">Register</button>
+            </div>
+        </section>
+    </div>
+
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+  https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-storage.js"></script>
+
+<script src="signupform.js"></script>
+
+</html>

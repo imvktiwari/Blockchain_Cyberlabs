@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #bde0fe;
+    border: 3px solid #023e8a;
+}
+
+h1 {
+    color: #03045e;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    width: 50%;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+nav {
+    align-items: right;
+    float: right;
+}
+
+#link {
+    border: 3px solid #023e8a;
+    border-radius: 20%;
+    margin: 5px;
+    padding: 15px;
+    background-color: #03045e;
+    display: inline-block;
+}
+
+#link a {
+    color: #caf0f8;
+    text-decoration: none;
+
+}
+
+#link a:hover {
+    color: #e9c46a;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 89.8vh;
+}
+
+.main #form {
+    opacity: 80%;
+    margin-left: 36%;
+    width: 60vh;
+    height: 55vh;
+    border: 3px solid #03045e;
+    border-radius: 5%;
+    background-color: #caf0f8;
+    margin-top: 100px;
+}
+
+.main #form h2 {
+    opacity: 100%;
+    width: 150px;
+    color: #caf0f8;
+    margin-left: 110px;
+    margin-top: 40px;
+    padding-left: 50px;
+    border: 3px solid #03045e;
+    border-radius: 10px;
+    background-color: #03045e;
+}
+
+input {
+    opacity: 100%;
+    width: 340px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #03045e;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+#form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+}
+
+#form .btn {
+    width: 200px;
+    height: 40px;
+    background-color: #03045e;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #caf0f8;
+    margin-left: 110px;
+}
+
+#form .btn:hover {
+    background: #023e8a;
+    color: #e9c46a;
+}
+
+#form p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#signup{
+    border: none;;
+}

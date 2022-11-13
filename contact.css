@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact{
+    width: 100%;
+    background: linear-gradient(to top , rgba(0,0,0,0.5),rgba(0,0,0,0.5) ) , url(1.jpg);
+    background-position: center;
+    background-size : cover;
+    height : 109vh;
+}
+.contact .content h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(209, 223, 46, 0.895);
+    padding-left: 145px;
+    padding-top: 39px;
+}
+.container
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contactinfo{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.8)50%,rgba(255, 252, 252, 0.8)50%);
+    position: absolute;
+    top: 120px;
+    left: 145px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.contactinfo h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff0000;
+}
+.contactform{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.8)50%,rgba(255, 252, 252, 0.8)50%);
+    position: absolute;
+    top: 120px;
+    left: 885px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.contactform h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff0000;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border-bottom: rgb(0, 0, 0);
+    border-bottom: 8px , solid #333;
+    outline-color: #333;
+    resize: none;
+}
+
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-20px);
+}
+.contactform .inputbox a
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
